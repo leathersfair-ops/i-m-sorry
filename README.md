@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>For You</title>
+    <style>
+        body {
+            background-color: #FFF0E6; /* Light Peach */
+            font-family: 'Arial', sans-serif;
+            text-align: center;
+            padding: 50px 20px;
+            color: #5d4037;
+        }
+        .flower { font-size: 80px; margin: 20px; }
+        .container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 20px;
+            margin-top: 40px;
+        }
+        .box {
+            background-color: #FFDAB9; /* Peach */
+            padding: 20px;
+            border-radius: 15px;
+            width: 220px;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+        }
+    </style>
+</head>
+<body>
+
+    <div class="flower">🌸</div>
+    <h1>I am truly sorry.</h1>
+    <p>Please forgive me, I hope we can move forward.</p>
+
+    <div class="container">
+        <div class="box"><h3>I'm Sorry</h3><p>I feel terrible for my behavior and I want to make things right.</p></div>
+        <div class="box"><h3>I Miss You</h3><p>Everything feels a little dimmer when we aren't talking.</p></div>
+        <div class="box"><h3>I Love You</h3><p>You are incredibly important to me.</p></div>
+        <div class="box"><h3>My Promise</h3><p>I will put more effort into understanding and supporting you.</p></div>
+    </div>
+
+</body>
+</html>
